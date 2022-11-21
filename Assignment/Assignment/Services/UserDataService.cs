@@ -1,10 +1,10 @@
 ﻿namespace Assignment.Services
 {
-    using Assignment.Models;
-    using Microsoft.IdentityModel.Tokens;
     using System.IdentityModel.Tokens.Jwt;
     using System.Security.Claims;
     using System.Security.Principal;
+    using Assignment.Models;
+    using Microsoft.IdentityModel.Tokens;
 
     public class UserDataService : IUserDataService
     {
